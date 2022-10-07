@@ -1,0 +1,55 @@
+{
+    "data": {
+      "id": "c95e80e1f9b03a8a4ccd5f4b0a32303f52f707e3",
+      "createdAt": "2022-09-14T15:33:45.701Z",
+      "modifiedAt": "2022-09-14T15:33:46.290Z",
+      "entities": [
+        {
+          "id": "73828764631bdaf0e42bfb70c34280930b2ab3bd",
+          "name": "attach-role-to-user-role",
+          "object": "identity"
+        }
+      ],
+      "apps": [
+        {
+          "id": "8b2864988275496f8e94fc5b44f6d55d08555033",
+          "name": "AWS"
+        }
+      ],
+      "category": "Privileged Access",
+      "tactics": [
+        "Initial Access",
+        "Privilege Escalation"
+      ],
+      "compliance": [
+        {
+          "id": "isoIec27001",
+          "name": "ISO/IEC 27001",
+          "values": [
+            "A.9.1.2"
+          ]
+        },
+        {
+          "id": "ccm402",
+          "name": "CSA STAR (CCM 4.0.2)",
+          "values": [
+            "IAM-10"
+          ]
+        }
+      ],
+      "techniques": [],
+      "status": "Open",
+      "severity": "High",
+      "policyId": "59748676749",
+      "policy": {
+        "id": "59748676749",
+        "name": "New AWS role with shadow admin privileges",
+        "templateId": "59748677052"
+      },
+      "assigneeId": "",
+      "recommendation": "Validate any new role creation and make sure it's part of the business cycle. If needed access the AWS console and remove the role.",
+      "description": "New sensitive AWS role detected",
+      "isResolved": false,
+      "url": "https://demo.authomize.com/incidents/c95e80e1f9b03a8a4ccd5f4b0a32303f52f707e3"
+    }
+  }
